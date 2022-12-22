@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+   
 }
 ul{
     display: flex;
@@ -19,3 +20,69 @@ a{
     margin-top: 10px;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.firstPart{
+    display: flex;
+    flex-direction: row;
+    padding-left: 240px;
+    padding-right: 240px;
+    
+}
+.the2ndPart{
+    display: flex;
+    flex-direction: column;
+    padding-left: 280px;
+    padding-right: 280px;
+    
+}
+
+.imgs{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: center;
+}
+.H4{
+    display: flex;
+    justify-content: center;
+}
+
+.the3rdPart{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 100px;
+}
+.author{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.the4thPart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+
+}
+.act{
+    display: flex;
+    flex-direction: column;
+}
+.SignUp2{
+    flex-shrink: 0;
+    height: 20px;
+    margin-top: 30px;
+}
+
+.footer{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
