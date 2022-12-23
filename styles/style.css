@@ -1,13 +1,30 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 0px;
+
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    
+    font-family: 'Roboto', arial;
+  
+    
    
+}
+.links{
+    background-color: #1F2937;
+    padding-left: 240px;
+    padding-right: 240px;
+    color: #F9FAF8;
 }
 ul{
     display: flex;
     justify-content: end;
     list-style-type: none;
     margin-top: -18px;
+    gap: 10px;
+    
 }
 li{
     padding-right: 8px;
@@ -15,9 +32,13 @@ li{
 }
 a{
     text-decoration: none;
+    color: gray;
+    font-size: 18px;
 }
 .header{
+    display: flex;
     margin-top: 10px;
+    justify-content: left;
 }
 
 .container{
@@ -27,9 +48,49 @@ a{
 .firstPart{
     display: flex;
     flex-direction: row;
+    padding-top: 100px;
     padding-left: 240px;
     padding-right: 240px;
+    padding-bottom: 100px;
+    background-color: #1F2937;
+    flex: 1 1 auto;
     
+}
+.btnSignUp1{
+    margin-top: 10px;
+    height: 35px;
+    width: 110px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 0px;
+    border-radius:5%;
+}
+.img1{
+    display: flex;
+    flex: 1 1 auto;
+    background-color: gray;
+    margin-left: 40px;
+}
+    
+    
+.thisWebsite{
+    margin-right: 100px;
+    max-width: 300px;
+}
+.text1{
+    font-size: 48px ;
+    font-style: bolder;
+    
+    color: #F9FAF8;
+}
+.awe{
+    font-size: 18px;
+    display: block;
+    color: #E5E7EB;
+}
+.header{
+    font-size: 24px;
+    color:#F9FAF8;
 }
 .the2ndPart{
     display: flex;
@@ -48,6 +109,8 @@ a{
 .H4{
     display: flex;
     justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
 }
 
 .the3rdPart{
@@ -57,6 +120,7 @@ a{
     padding-left: 300px;
     padding-right: 300px;
     padding-top: 100px;
+    background-color:#E5E7EB;
 }
 .author{
     display: flex;
@@ -64,25 +128,47 @@ a{
 }
 
 .the4thPart{
+    
+    background-color: #3882F6;
+    margin: 50px 200px;
+    padding: 10px 80px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 20px;
-    gap: 20px;
+    align-items: center;
+    border-radius: 5px;
 
+}
+.quote{
+    
+    font-size: 36px;
+    font-style: italic;
 }
 .act{
     display: flex;
+    flex: 1;
     flex-direction: column;
+    padding-left: 250px;
 }
-.SignUp2{
-    flex-shrink: 0;
-    height: 20px;
-    margin-top: 30px;
-}
+
 
 .footer{
     display: flex;
     margin-top: 100px;
     justify-content: center;
 }
+.SignUp2Class {
+   
+    padding-right: 250px;
+    
+    color: #F9FAF8;
+    border: 145px white;
+    
+    border-color: #E5E7EB;
+    font-size: 15px;
+}
+.SignUp2{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius:8px;
+    padding: 10px;
+}
+
